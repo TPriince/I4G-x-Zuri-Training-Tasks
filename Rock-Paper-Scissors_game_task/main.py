@@ -52,5 +52,3 @@ while True:
         elif player_choice == random.choice(cpu_options):
             print("It's a tie!")
             print("Make another pick")
-
-        print
