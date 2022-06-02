@@ -60,22 +60,19 @@ while True:
         # If player choice is the same as CPU choice
         elif player_choice == cpu_choice:
             if player_choice == "R":
-                player_choice = "Rock"
                 # Since Player and CPU choices are the same, if player_choice = "Rock", CPU will have the same choice
-                print("Player ({}) : CPU (Rock)".format(player_choice))
+                print("Player (Rock) : CPU (Rock)")
                 print("It's a tie!")
                 print("Make another pick")
 
             if player_choice == "P":
-                player_choice = "Paper"
                 # Since Player and CPU choices are the same, if player_choice = "Paper", CPU will have the same choice
-                print("Player ({}) : CPU (Paper)".format(player_choice))
+                print("Player (Paper) : CPU (Paper)")
                 print("It's a tie!")
                 print("Make another pick")
 
             if player_choice == "S":
-                player_choice = "Scissors"
                 # Since Player and CPU choices are the same, if player_choice = "Scissors", CPU will have the same choice
-                print("Player ({}) : CPU (Scissors)".format(player_choice))
+                print("Player (Scissors) : CPU (Scissors)")
                 print("It's a tie!")
                 print("Make another pick")
