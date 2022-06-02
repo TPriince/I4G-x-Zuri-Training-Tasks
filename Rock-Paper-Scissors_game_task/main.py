@@ -76,4 +76,3 @@ while True:
                 print("Player (Scissors) : CPU (Scissors)")
                 print("It's a tie!")
                 print("Make another pick")
-
